@@ -4,11 +4,11 @@ MAINTAINER Ipman1971 <ipman1971@gmail.com>
 
 LABEL org.label-schema.schema-version="1.0" \
       org.label-schema.name="debian-zulu" \
-      org.label-schema.description="Debian Zulu JVM" \
+      org.label-schema.description="Debian with Azul Zulu JVM" \
       org.label-schema.vcs-url="https://github.com/ipman1971/debian-zulu" \
       org.label-schema.vendor="Ipman1971" \
       org.label-schema.version="1.0.0" \
-      com.ipman1971.baseimage-contents='{"contents": [{"name": "debian", "version": "buster-slim"}, {"name": "zulu-jvm", "version": "8.30.0.1"}]}'
+      com.ipman1971.baseimage-contents='{"contents": [{"name": "debian", "version": "9"}, {"name": "zulu-jvm", "version": "8.30.0.1"}]}'
 
 ENV ZULU_VERSION 8.30.0.1
 ENV JAVA_HOME /usr/lib/jvm/zulu-8-amd64
